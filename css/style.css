@@ -1,0 +1,513 @@
+/* navbar style */
+
+.navbar{ 
+    top: 0; 
+} 
+.navbar-container{ 
+    margin-left: 60px; 
+    margin-top: 5px;
+} 
+.navbar-around{ 
+    font-size: 23px; 
+    font-weight: 500; 
+} 
+.navbar-a-href{ 
+    font-weight: 500; 
+    padding-left: 40px !important;
+} 
+
+.navbar-a-href:hover {
+    
+}
+
+.navbar-buy{ 
+    margin-left: 35px; 
+    margin-right: 100px; 
+} 
+.navbar-button{
+    color: white;
+    background-color: #448c74;
+    margin-right: -70px;
+    text-align: center; 
+    border-radius: 13px; 
+    height: 40px;
+} 
+
+.form-check-input {
+    background-color: #448c74;
+}
+
+/* home style */
+
+.home {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+}
+
+.home-h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.home-p {
+    padding-top: 25px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.home-container {
+    width: 40%;
+    margin-top: 60px;
+    border-radius: 40px;
+    background-color: #448c74;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    position: absolute;
+    right: 15px;
+    z-index: auto;
+}
+
+.home-h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.home-h6 {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.home-space-input {
+    height: 60px;
+    border-radius: 20px;
+    background-color: #448c74;
+}
+
+.home-space-button {
+    width: 100%;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.home-img {
+    width: 100%;
+    height: 800px;
+    margin-top: 130px;
+}
+
+/* about style */
+
+.about-h1 {
+    padding-top: 110px;
+}
+
+.about-p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.about-h1-2 {
+    font-weight: 400;
+}
+
+/* space style */
+
+.space-p {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.space-row {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space-row a {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.space-col-btn {
+    margin-top: -12px;
+    padding-top: 10px;
+    width: 80px;
+    height: 45px;
+    border: 1px solid #448c74;
+    border-radius: 13px;
+}
+
+.space-col-btn a {
+    color: #448c74;
+}
+
+.row-space-img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 30px;
+}
+
+.row-space-img:hover {
+    filter: brightness(40%);
+    transition: 0.5s;
+}
+
+/* coworking style */
+
+.coworking {
+    background-color: #edf1f5;
+    margin-top: 120px;
+}
+
+.coworking-h1 {
+    padding-top: 90px;
+}
+
+.img-coworking {
+    border-radius: 38px;
+    width: 90%;
+}
+
+.coworking-first-col {
+    padding-top: 150px;
+    padding-left: 120px;
+}
+
+.coworking-first-col h2 {
+    font-weight: 600;
+    width: 80%;
+}
+
+.coworking-first-col p {
+    width: 90%;
+    margin-top: 35px;
+    font-weight: 600;
+}
+
+.coworking-first-col button {
+    width: 150px;
+    margin-top: 40px;
+    border-radius: 13px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #448c74 !important;
+}
+
+.coworking-second-col {
+    padding-top: 150px;
+    padding-left: 120px;
+}
+
+.img-coworking-2 {
+    z-index: 2 !important;
+    position: relative;
+}
+
+.animation-vlog {
+    width: 470px;
+    height: 480px;
+    border: 5px dotted rgb(160, 159, 159);
+    border-radius: 50%;
+    margin-top: -510px;
+    margin-left: 13px;
+    position: absolute !important;
+    animation: round 50s linear infinite;
+}
+
+.animation-vlog-second {
+    width: 200px;
+    height: 200px;
+    border: 5px dotted rgb(160, 159, 159);
+    border-radius: 50%;
+    margin-top: -380px;
+    margin-left: 146px;
+    position: absolute !important;
+    animation: round 45s linear infinite;
+}
+
+@keyframes round {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.coworking-second-col h2 {
+    width: 87%;
+}
+
+.coworking-second-col p {
+    margin-top: 35px;
+    width: 90% !important;
+    font-weight: 600;
+}
+
+.coworking-second-col h1 {
+    color: #ed5050;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: -5px;
+}
+
+.coworking-third-col {
+    padding-top: 150px;
+    padding-left: 120px;
+}
+
+.coworking-third-col h2{
+    width: 85%;
+}
+
+.coworking-third-col p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.coworking-first-row {
+    margin-top: 100px;
+}
+
+.bottom-row {
+    padding-bottom: 130px;
+}
+
+/* atmosphere style */
+
+.atmosphere-row {
+    margin-top: 140px;
+}
+
+.atmosphere-first-col h1 {
+    margin-left: -50px;
+}
+
+.atmosphere-second-col p {
+   width: 110%;
+}
+
+.video-atmosphere {
+    margin-top: 40px;
+    width: 100%;
+    height: 600px;
+    border-radius: 35px;
+}
+
+.iframe {
+    padding-bottom: 130px;
+}
+
+/* lorem style */
+
+.lorem-first-col h1 {
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 90%;
+    font-weight: 600;
+}
+
+.lorem-first-col p {
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.lorem-first-col button {
+    background-color: #448c74;
+    width: 220px;
+    height: 60px;
+    border-radius: 17px;
+    color: white;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top:40px ;
+}
+
+.lorem-row {
+    padding-bottom: 120px;
+}
+
+/* plan style */
+
+.card, .card-body {
+    border-radius: 35px;
+}
+
+.first-second-col-plan h3 {
+    padding-top: 50px;
+    font-weight: 700;
+}
+
+.first-second-col-plan h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #448c74;
+}
+
+.card-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.first-second-btn-plan {
+    width: 90%;
+    height: 48px;
+    background-color: #448c74;
+    color: white;
+    border: 0;
+    border-radius: 17px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.card-body-third {
+    background-color: #448c74;
+}
+
+.third-col-plan h3 {
+    padding-top: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.third-col-plan h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+}
+
+.third-btn-plan {
+    width: 90%;
+    height: 48px;
+    background-color: white;
+    color: #448c74;
+    border: 0;
+    border-radius: 17px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.card-text-third {
+    color: rgb(196, 194, 194);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* map style */
+
+.my-map {
+    margin-top: 130px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myMap {
+    border-radius: 35px;
+    width: 100%;
+    height: 500px;
+}
+
+
+/*  */
+
+.sfrpc-row {
+    margin-top: 80px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sfrpc-row a {
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+}
+
+.line {
+    border: 1px solid rgb(160, 159, 159);
+    border-radius: 35px;
+    width: 92%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+/* footer style */
+
+.footer-row {
+    margin-top: 30px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.foter-a-1 {
+    color: rgb(160, 159, 159);
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.foter-a-2 {
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.8;
+    color: white;
+    background-color: blue;
+}
+
+.fa-instagram {
+    background-color: white;
+    color: rgb(95, 95, 95);
+    border: 1px solid rgb(95, 95, 95);
+    margin-left: 460px
+}
+
+.fa-facebook {
+    background-color: white;
+    color: rgb(95, 95, 95);
+    border: 1px solid rgb(95, 95, 95);
+}  
+
+.fa-youtube {
+    background-color: white;
+    color: rgb(95, 95, 95);
+    border: 1px solid rgb(95, 95, 95);
+}
